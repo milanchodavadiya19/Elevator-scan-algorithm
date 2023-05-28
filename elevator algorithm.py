@@ -5,6 +5,7 @@ disk_size = 200
 
 def SCAN(arr, head, direction):
 
+	
 	seek_count = 0
 	distance, cur_track = 0, 0
 	left = []
