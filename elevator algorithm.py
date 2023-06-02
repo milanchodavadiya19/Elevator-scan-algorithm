@@ -30,6 +30,7 @@ def SCAN(arr, head, direction):
 	left.sort()
 	right.sort()
 
+	
 	# Run the while loop two times.
 	# one by one scanning right
 	# and left of the head
