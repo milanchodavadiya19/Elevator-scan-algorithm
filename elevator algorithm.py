@@ -26,6 +26,7 @@ def SCAN(arr, head, direction):
 		if (arr[i] > head):
 			right.append(arr[i])
 
+			
 	# Sorting left and right vectors
 	left.sort()
 	right.sort()
