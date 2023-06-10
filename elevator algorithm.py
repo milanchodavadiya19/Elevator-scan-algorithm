@@ -74,7 +74,8 @@ def SCAN(arr, head, direction):
 				head = cur_track
 			
 			direction = "left"
-		
+
+			
 		run -= 1
 
 	print("Total number of seek operations =",
@@ -86,7 +87,6 @@ def SCAN(arr, head, direction):
 		print(seek_sequence[i])
 
 # Driver code
-
 # request array
 arr = [ 176, 79, 34, 60,
 		92, 11, 41, 114 ]
